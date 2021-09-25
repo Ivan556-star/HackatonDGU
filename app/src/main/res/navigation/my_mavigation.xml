@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_mavigation"
+    app:startDestination="@id/choice">
+
+    <fragment
+        android:id="@+id/registration"
+        android:name="com.example.hackatondgu.screens.registration"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" />
+    <fragment
+        android:id="@+id/singIn"
+        android:name="com.example.hackatondgu.screens.SingIn"
+        android:label="fragment_sing_in"
+        tools:layout="@layout/fragment_sing_in" />
+    <fragment
+        android:id="@+id/choice"
+        android:name="com.example.hackatondgu.screens.choice"
+        android:label="fragment_choice"
+        tools:layout="@layout/fragment_choice" >
+        <action
+            android:id="@+id/action_choice_to_registration"
+            app:destination="@id/registration" />
+        <action
+            android:id="@+id/action_choice_to_singIn"
+            app:destination="@id/singIn" />
+    </fragment>
+</navigation>
