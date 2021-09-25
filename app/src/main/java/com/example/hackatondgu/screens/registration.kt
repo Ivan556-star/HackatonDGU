@@ -21,7 +21,7 @@ import androidx.appcompat.app.AppCompatActivity
 class registration : Fragment() {
     private lateinit var binding: FragmentRegistrationBinding
     // https://dropmefiles.com/ тест сайт для проверки загрузки
-    private var url = "https://cx55232-wordpress-oobeb.tw1.ru/mobile_reg/"
+    private var url = "http://cx55232-wordpress-oobeb.tw1.ru/mobile_reg/"
 
     private var mUploadMessage: ValueCallback<Uri>? = null
     var uploadMessage: ValueCallback<Array<Uri>>? = null
@@ -83,7 +83,7 @@ class registration : Fragment() {
             }
 
             //For Android 4.1 only
-            protected fun openFileChooser(
+            fun openFileChooser(
                 uploadMsg: ValueCallback<Uri>,
                 acceptType: String?,
                 capture: String?
