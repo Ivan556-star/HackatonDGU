@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/activity_instruction_screens.xml" value="0.28157894736842104" />
         <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/activity_register.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/activity_welcome.xml" value="0.1" />
-        <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/activity_wellcome.xml" value="0.6" />
+        <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/activity_wellcome.xml" value="0.4" />
         <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/fragment_calculator.xml" value="0.4" />
         <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/fragment_choice.xml" value="0.264" />
+        <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/fragment_register_screen.xml" value="0.176" />
         <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/fragment_registration.xml" value="0.176" />
         <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/fragment_sing_in.xml" value="0.264" />
+        <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/fragment_sing_in_screen.xml" value="0.16979166666666667" />
         <entry key="..\:/Users/srysi/AndroidStudioProjects/HackatonDGU/app/src/main/res/layout/fragment_wellcome_screen.xml" value="0.264" />
       </map>
     </option>

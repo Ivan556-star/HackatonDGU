@@ -29,12 +29,17 @@ class wellcome : AppCompatActivity() {
             finish()
         }
 
-        val editor = pref.edit()
-        editor?.putInt(CONST_PASS.WAS_OPEN, 1)
-        editor?.apply()
+//        val editor = pref.edit()
+//        editor?.putInt(CONST_PASS.WAS_OPEN, 1)
+//        editor?.apply()
 
 
         bindingClass.nextBtn.setOnClickListener {
+            val intent = Intent(this, instructionScreens::class.java)
+            startActivity(intent)
+            finish()
+        }
+        bindingClass.skipBtn.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
