@@ -29,9 +29,6 @@ class registerScreen : Fragment() {
         binding = FragmentRegisterScreenBinding.inflate(inflater)
 
         binding.webViewReg.webViewClient = WebViewClient()
-        // http://u113361.test-handyhost.ru  старый сайт
-        // http://cx55232-wordpress-oobeb.tw1.ru/elementor-258/ новый сайт
-        // https://www.virustotal.com/gui/home/upload
         binding.webViewReg.loadUrl(url)
         val webSettings = binding.webViewReg.settings
         webSettings.javaScriptEnabled = true

@@ -1,8 +1,11 @@
 package com.example.hackatondgu
 
+import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.FrameLayout
+import android.widget.LinearLayout
 import com.example.hackatondgu.databinding.ActivityInstructionScreensBinding
 import com.example.hackatondgu.databinding.ActivityWellcomeBinding
 import com.example.hackatondgu.wellcomeScreens.registerScreen
@@ -25,9 +28,8 @@ class instructionScreens : AppCompatActivity() {
         bindingClass.accExist.setOnClickListener {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.placeHolder, singInScreen.newInstance()).commit()
-
             bindingClass.accExist.visibility = View.GONE
-            bindingClass.accExist2.visibility = View.VISIBLE
+
         }
 
     }
