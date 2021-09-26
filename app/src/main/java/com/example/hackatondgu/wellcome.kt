@@ -29,9 +29,9 @@ class wellcome : AppCompatActivity() {
             finish()
         }
 
-//        val editor = pref.edit()
-//        editor?.putInt(CONST_PASS.WAS_OPEN, 1)
-//        editor?.apply()
+        val editor = pref.edit()
+        editor?.putInt(CONST_PASS.WAS_OPEN, 1)
+        editor?.apply()
 
 
         bindingClass.nextBtn.setOnClickListener {
